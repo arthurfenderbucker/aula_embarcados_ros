@@ -74,6 +74,9 @@ vamos agora escrever um node para controlar o robo de forma automatizada em pyth
 *note que o seu pacote foi criado, veja o seu conteudo ```ls O_NOME_Q_VC_QUISER```
 * para criar um node nesse pacote: abra o IDE em Tools, e navegue até a pasta ~/catkin_ws/src/O_NOME_Q_VC_QUISER/src/ e crie um arquivo move_turtlebot.py
 * insira nele o conteudo presente no arquivo move_turtlebot.py deste repositório e fique livre para modifica-lo (é só um exemplo)
+* entre pelo shell na mesma pasta ```cd ~/catkin_ws/src/O_NOME_Q_VC_QUISER/src/``` e torne o arquivo criado executavel ```chmod +x move_turtlebot.py```
+* por último, vamos "recontruir" o workspace para que o pacote e o node criado sejam reconheciveis pelo ros ```cd ~/catkin_ws``` e então ```catkin_make```
+* agora basta rodar o node ```rosrun O_NOME_Q_VC_QUISER move_turtlebot.py``` :smile:
 
 
 referências:</br>
